@@ -1,24 +1,47 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an example CRUD RESTFUL API project with Ruby On Rails.It is an
+public API.It does not include any authentication.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version -- 2.5.1
 
-* System dependencies
+* Rails version -- 5.2.2
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+#### Configuration
 
-* How to run the test suite
+-- before start you have to use bundle install in command line
 
-* Services (job queues, cache servers, search engines, etc.)
+### Usage
 
-* Deployment instructions
+First,You should start server with rails s command.
+and if you want,you can use postman to see some result 
 
-* ...
+Here is these things all project API
+
+
+
+GET #index get method to see all posts.
+
+http://localhost:3000/v1/posts
+
+GET #show get method to see one post with id
+
+http://localhost:3000/v1/posts/:id
+
+POST #create post method to create a user
+
+http://localhost:3000/v1/posts
+
+PUT #update put method to update a user
+
+http://localhost:3000/v1/posts/:id
+
+DELETE #destroy delete method to destroy a user
+
+http://localhost:3000/v1/posts/:id
+
+
